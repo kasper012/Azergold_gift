@@ -1,0 +1,89 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+body {
+	max-width: 100%;
+	min-width: 100%;
+}
+
+.con-home {
+	margin-bottom: -1%;
+}
+
+.order_now_btn {
+    margin-top: 40px;
+    color: #0C0C0C;
+    font-size: 20px;
+    background-color: #EABE5A;
+    border-radius: 7px;
+    font-family: 'SFProDisplay-Bold';
+    transition: all 0.5s;
+}
+
+.home_order_now {
+	text-transform: uppercase;
+	padding: 15px 50px;
+}
+
+.order_now_btn:hover {
+	background-color: #202020;
+	color: rgba(255,255,255,0.8);
+	text-decoration: none;
+}
+
+.index__content {
+	margin-top: 190px;
+}
+
+.main__img {
+	width:100%;
+	height: 100%;
+}
+
+.main {
+	display: flex;
+	margin-bottom: -50px;
+	
+	height: 100%;
+
+}
+.main__item {
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	margin-top: -20px;
+	min-width: 370px;
+}
+
+
+.main__item__text {
+	text-align: center;
+
+	min-height: 217px;
+}
+
+.main__text {
+	color: white;
+	font-size: 35px;
+	font-family: SFProDisplay-Regular;
+}
+
+.merkez {
+	width:200px;
+	height:207px
+}
+
+.kulce {
+	width: 150px;
+	height: 215px;
+}
+@media (min-width: 1280px) {
+	.merkez { margin-left: -120px;
+	}
+
+	.kulce {margin-right: -100px;}
+}
+
