@@ -19,6 +19,7 @@ body {
   src: url(../fonts/SFProDisplay-Regular.ttf);
   font-weight: 200;
   font-style: normal;
+  font-display: swap;
   }
 
 
@@ -26,6 +27,7 @@ body {
   font-family: SFProDisplay-Bold;
   src: url(../fonts/SFProDisplay-Bold.ttf);
   font-style: normal;
+  font-display: swap;  
 }
 
 
@@ -37,6 +39,7 @@ body {
       url(../fonts/jaznb.svg#jaznb) format('svg');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;     
   }
 
     /* для элемента input c type="checkbox" */
@@ -150,7 +153,7 @@ a:hover {
   background-color: black;
   min-width: 60px !important;
   max-height: 70px !important;
-  overflow: hidden;
+
 }
 .dropdown-item {
   color: #eabe5a;
@@ -224,7 +227,7 @@ a:hover {
 .fb {
   color: white;
   font-size: 25px;
-  padding-top: 22%;
+  padding-top: 20%;
 }
 
 .fb:hover {
@@ -243,13 +246,15 @@ a:hover {
 }
 
 .basket {
- background-image: url(../img/basket.svg)
+  font-size: 25px;
+  color: white;
+  padding-top: 20%;
+  padding-left: 13%;
 }
 
 
 .basket:hover {
-  background-image: url(../img/basket2.svg);
-  
+ color: #eabe5a;
 }
 
 
@@ -317,8 +322,8 @@ ul {
     
  }
 
- .footer__copycat {
-  margin-top: 20px;
+ .footer__copyright {
+  margin-top: 45px;
  }
 
 p { 
@@ -345,45 +350,44 @@ p {
 
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url(../img/home.svg);
+
 }
 .footer__home {
-  background-image: url(../img/home.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    padding-top: 35%; 
 }
 
 .footer__home:hover {
-  background-image: url(../img/home2.svg);
+  color: #eabe5a;
 
 }
 .footer__products {
-  background-image: url(../img/products.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    padding-top: 35%;
 }
 
 .footer__products:hover {
-  background-image: url(../img/products2.svg);
+  color: #eabe5a;
 }
 .footer__basket {
-  background-image: url(../img/basket.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+  color: white;
+  font-size: 20px;
+  padding-top: 35%;
 }
 
 .footer__basket:hover {
-  background-image: url(../img/basket2.svg);
-
+  color: #eabe5a;
 }
 .footer__geo {
-  background-image: url(../img/geo.svg);
-  background-position: center;
-  background-repeat: no-repeat;
+    color: white;
+    font-size: 20px;
+    padding-top: 35%;
 }
 
 .footer__geo:hover {
-  background-image: url(../img/geo2.svg);
+color: #eabe5a;
 }
 
 
@@ -591,6 +595,19 @@ p {
   border-radius: 5px
 }
 
+.btn-filter:hover {
+  color: #eabe5a;
+}
+
+
+.m__product  {
+  padding-top: 14px;
+  font-size: 40px;
+  color: #888;
+}
+
+
+
 .product_img {
   max-width:90%;
   max-height:90%;
@@ -635,6 +652,7 @@ p {
 }
 
 .ls {
+
   color:#888;
 }
 
@@ -802,6 +820,5 @@ p {
   }
 
 }
-
 
 
